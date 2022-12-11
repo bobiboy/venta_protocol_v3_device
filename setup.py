@@ -15,11 +15,11 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="venta-protocol-v3-device",
-    version="0.1.0",
+    version="0.1.2",
     description="Control Venta Air Humidifiers that use Protol Version 3",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bobiboy/venta-protocol-v3-device",
+    url="https://github.com/bobiboy/venta_protocol_v3_device",
     license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
@@ -34,5 +34,5 @@ setup(
     ],
     packages=["venta_protocol_v3_device"],
     include_package_data=True,
-    install_requires=["func_timeout","requests","json","enum","logging","socket","re","math","asyncio"]
+    install_requires=["func_timeout"]
 )

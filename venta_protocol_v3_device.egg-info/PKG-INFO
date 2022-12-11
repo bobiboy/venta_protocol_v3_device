@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: venta-protocol-v3-device
-Version: 0.1.0
+Version: 0.1.2
 Summary: Control Venta Air Humidifiers that use Protol Version 3
-Home-page: https://github.com/bobiboy/venta-protocol-v3-device
+Home-page: https://github.com/bobiboy/venta_protocol_v3_device
 License: MIT
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
