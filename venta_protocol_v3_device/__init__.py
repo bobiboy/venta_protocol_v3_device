@@ -80,7 +80,7 @@ class Venta_Protocol_v3_Device:
         Returns:
             None
         """
-        self.IP:string = IP
+        self.IP:str = IP
         self.Automatic:int=0
         self.BaLi:int=0
         self.DaysToService:int=0
@@ -99,8 +99,6 @@ class Venta_Protocol_v3_Device:
         self.TargetHum:int=0
         self.Temperature:int=0
         self.Warnings:int=0
-        
-        self.getStatus()
         
     def getStatus(self):
         """Contacts the Venta device and populates / updates the class properties""" 
